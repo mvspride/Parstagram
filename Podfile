@@ -6,11 +6,9 @@ target 'Parstagram' do
   use_frameworks!
 
   # Pods for Parstagram
+  pod 'Parse'
   pod 'AlamofireImage'
-  pod 'parse'
-  platform :ios, '8.0'
-  use_frameworks!    # Instruct CocoaPods to use dynamic frameworks instead of static libraries for Pods
-  ...
+  pod 'MessageInputBar'
 
 
 end
